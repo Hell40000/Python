@@ -1,6 +1,5 @@
 def summ_count(num):
     result_summ = 0
-    last_digit = 0
     while num != 0:
         last_digit = num % 10
         result_summ += last_digit
